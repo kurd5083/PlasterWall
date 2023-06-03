@@ -1,0 +1,435 @@
+/*colors*/
+/*Basic setting*/
+body {
+  font-family: 'Proxima_rg', sans-serif;
+  font-size: 14px;
+}
+.main {
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+  padding: 30px 0px;
+}
+.header {
+  margin-top: 20px;
+  height: 70px;
+}
+.header strong {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+}
+.header .logo-text {
+  font-size: 15px;
+  margin-top: 12px;
+}
+.header .phone-link {
+  font-size: 20px;
+  display: inline-block;
+  color: #1a1820;
+  margin-top: 20px;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.header .header-btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'Proxima_bold', sans-serif;
+  margin-top: 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+.header .header-btn:hover {
+  background-color: #fcbb1c;
+  cursor: pointer;
+  color: #000;
+  -webkit-box-shadow: 1px 1px 10px ;
+          box-shadow: 1px 1px 10px ;
+}
+.main-content {
+  margin-top: 100px;
+}
+.main-content .main-title {
+  margin-top: -10px;
+}
+.main-content .main-title h1 {
+  line-height: 1.4;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.main-content .main-title span {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 20px 50px;
+  font-size: 20px;
+  background-color: #70c849;
+  color: #ffffff;
+}
+.main-content .main-title strong {
+  font-size: 28px;
+}
+.main-content .main-text {
+  margin-top: 40px;
+  font-size: 24px;
+}
+.main-content .main-price {
+  margin-top: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.main-content .main-form {
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.main-content .main-form h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.main-content .main-form small {
+  display: block;
+  margin-top: 20px;
+}
+.main-content .main-form .main-form-input {
+  margin: 20px 0px;
+  display: block;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 15px;
+}
+.main-content .main-form label {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 3px;
+  background-color: #ffffff;
+}
+.main-content .main-form-btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'Proxima_bold', sans-serif;
+  margin-top: 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+.main-content .main-form-btn:hover {
+  background-color: #fcb60d;
+  cursor: pointer;
+}
+.section-header {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 100px auto;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .main {
+    background-position: top right;
+    background-size: cover;
+  }
+  .phone-link {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 30px;
+  }
+}
+.features {
+  padding: 100px ;
+  text-align: center;
+}
+.features .section-header {
+  font-size: 36px;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.features-block {
+  display: inline-block;
+  text-align: center;
+}
+.features-img {
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.features h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-family: 'Proxima_bold', sans-serif;
+  margin-top: 30px;
+}
+.features p {
+  font-size: 16px;
+}
+.slick-active {
+  outline: none;
+}
+.price {
+  padding: 100px 0px;
+  background-color: #005e00;
+}
+.price .price-header {
+  text-align: center;
+}
+.price .price-header h2 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  display: inline-block;
+}
+.price .price-header p {
+  color: #fff;
+  margin-top: 50px;
+}
+.price .price-header .btn-price {
+  padding: 10px 39px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #fcb303;
+  color: #ffffff;
+  margin: 30px;
+  font-family: 'Proxima_bold', sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+}
+.price .price-header .btn-price:hover {
+  background-color: #fcb60d;
+  border: 1px solid #fff;
+}
+.price .price-block {
+  width: 320px;
+  height: 530px;
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.price .price-block h4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+.price .price-block .price-img img {
+  width: 100%;
+  max-height: 180px;
+  margin-top: 20px;
+}
+.price .price-block span {
+  font-weight: 700;
+}
+.price .price-block ul {
+  font-size: 14px;
+  list-style: none;
+  padding: 20px 0;
+  min-height: 152px;
+}
+.price .price-block li:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/svg/checked.svg) no-repeat 50%;
+  background-size: 100%;
+  margin-right: 10px;
+}
+.price .price-block .btn-price-block {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #fcb303;
+  color: #fff;
+  font-family: 'Proxima_bold', sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+}
+.contacts {
+  background: #ffffff url("../img/contacts-bg.jpg") center no-repeat;
+}
+h2 {
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Proxima_bold', sans-serif;
+  margin-top: 20px;
+}
+.contacts p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contacts #message {
+  width: 100%;
+}
+.contacts .myIFrame {
+  width: 600px;
+  height: 300px;
+  border: none;
+}
+.footer-contacts {
+  display: block;
+  text-align: center;
+  padding-top: 0,5px;
+}
+.footer-dev-logo {
+  text-align: right;
+}
+.footer p {
+  margin: 0;
+}
+.footer .row .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .row .footer-logo .logoText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.footer .row .footer-logo .logoText .text-uppercase {
+  font-size: 20px;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.footer .row .footer-logo .logoText p {
+  font-size: 15px;
+  margin: 0;
+}
+@media screen and (max-width: 1240px) {
+  .scheme {
+    background-size: 55px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .phone-link {
+    font-size: 15px;
+  }
+  .feedback-form {
+    padding: 30px 10px;
+  }
+  .feedback .fotorama {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .main .logoText {
+    margin-left: 15px;
+  }
+  .main-title h1 {
+    font-size: 35px;
+  }
+  .main .phone-link {
+    font-size: 10px;
+  }
+  .feedback .hand {
+    display: none;
+  }
+  .scheme {
+    background-size: 480px;
+  }
+  .problems-woman {
+    display: none;
+  }
+  .problems-list {
+    min-height: 430px;
+  }
+  .contacts {
+    background-color: #fff;
+    background: none;
+  }
+  .contacts-form {
+    margin-top: 30px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-logo {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .footer-contacts {
+    margin: 20px 0;
+  }
+  .footer-dev-logo {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 769px) {
+  .main {
+    background-position: top right;
+  }
+  .main-title h1 {
+    font-size: 25px;
+  }
+  .main .wrap-content button {
+    margin-top: 45px;
+  }
+  .main .phone-link {
+    font-size: 20px;
+  }
+  .price-button {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .price .section-header {
+    margin: 0;
+  }
+  .price-block {
+    margin-top: 20px;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    min-height: auto;
+  }
+}
