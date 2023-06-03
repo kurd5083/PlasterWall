@@ -1,5 +1,4 @@
-/*colors*/
-/*Basic setting*/
+
 body {
   font-family: 'Proxima_rg', sans-serif;
   font-size: 14px;
@@ -17,18 +16,18 @@ body {
   display: block;
   margin-top: 20px;
 }
-.header .logo-text {
+.logo-text {
   font-size: 15px;
   margin-top: 12px;
 }
-.header .phone-link {
+.phone-link {
   font-size: 20px;
   display: inline-block;
   color: #1a1820;
   margin-top: 20px;
   font-family: 'Proxima_bold', sans-serif;
 }
-.header .header-btn {
+.header-btn {
   padding: 10px 30px;
   border-radius: 5px;
   font-size: 12px;
@@ -42,7 +41,7 @@ body {
   transition: all 0.2s;
   outline: none;
 }
-.header .header-btn:hover {
+.header-btn:hover {
   background-color: #fcbb1c;
   cursor: pointer;
   color: #000;
@@ -52,16 +51,16 @@ body {
 .main-content {
   margin-top: 100px;
 }
-.main-content .main-title {
+.main-title {
   margin-top: -10px;
 }
-.main-content .main-title h1 {
+.main-title h1 {
   line-height: 1.4;
   font-size: 36px;
   text-transform: uppercase;
   font-family: 'Proxima_bold', sans-serif;
 }
-.main-content .main-title span {
+.main-title span {
   margin-top: 20px;
   text-align: center;
   line-height: 1.6;
@@ -71,34 +70,34 @@ body {
   background-color: #70c849;
   color: #ffffff;
 }
-.main-content .main-title strong {
+.main-title strong {
   font-size: 28px;
 }
-.main-content .main-text {
+.main-text {
   margin-top: 40px;
   font-size: 24px;
 }
-.main-content .main-price {
+.main-price {
   margin-top: 30px;
   font-size: 24px;
   text-transform: uppercase;
   font-family: 'Proxima_bold', sans-serif;
 }
-.main-content .main-form {
+.main-form {
   padding: 40px 30px;
   text-align: center;
   background-color: #ffffff;
 }
-.main-content .main-form h2 {
+.main-form h2 {
   margin-bottom: 20px;
   font-size: 18px;
   text-align: center;
 }
-.main-content .main-form small {
+.main-form small {
   display: block;
   margin-top: 20px;
 }
-.main-content .main-form .main-form-input {
+.main-form-input {
   margin: 20px 0px;
   display: block;
   height: 50px;
@@ -106,7 +105,7 @@ body {
   border: 1px solid #dddddd;
   padding: 15px;
 }
-.main-content .main-form label {
+.main-form label {
   position: absolute;
   display: inline-block;
   left: 50%;
@@ -115,7 +114,7 @@ body {
   padding: 3px;
   background-color: #ffffff;
 }
-.main-content .main-form-btn {
+.main-form-btn {
   width: 100%;
   padding: 15px;
   border-radius: 5px;
@@ -131,7 +130,7 @@ body {
   transition: all 0.2s;
   outline: none;
 }
-.main-content .main-form-btn:hover {
+.main-form-btn:hover {
   background-color: #fcb60d;
   cursor: pointer;
 }
@@ -141,26 +140,12 @@ body {
   margin: 100px auto;
   text-align: center;
 }
-@media (max-width: 992px) {
-  .main {
-    background-position: top right;
-    background-size: cover;
-  }
-  .phone-link {
-    text-align: center;
-  }
-  .main-title {
-    text-align: center;
-  }
-  .main-content {
-    margin-top: 30px;
-  }
-}
+
 .features {
   padding: 100px ;
   text-align: center;
 }
-.features .section-header {
+.section-header {
   font-size: 36px;
   font-family: 'Proxima_bold', sans-serif;
 }
@@ -189,20 +174,20 @@ body {
   padding: 100px 0px;
   background-color: #005e00;
 }
-.price .price-header {
+.price-header {
   text-align: center;
 }
-.price .price-header h2 {
+.price-header h2 {
   color: #fff;
   font-size: 26px;
   font-weight: 700;
   display: inline-block;
 }
-.price .price-header p {
+.price-header p {
   color: #fff;
   margin-top: 50px;
 }
-.price .price-header .btn-price {
+.btn-price {
   padding: 10px 39px;
   border-radius: 5px;
   font-size: 12px;
@@ -216,11 +201,11 @@ body {
   border: none;
   outline: none;
 }
-.price .price-header .btn-price:hover {
+.btn-price:hover {
   background-color: #fcb60d;
   border: 1px solid #fff;
 }
-.price .price-block {
+.price-block {
   width: 320px;
   height: 530px;
   padding: 50px 20px;
@@ -230,26 +215,26 @@ body {
   font-size: 16px;
   margin-top: 20px;
 }
-.price .price-block h4 {
+.price-block h4 {
   font-size: 16px;
   text-align: center;
   font-weight: 700;
 }
-.price .price-block .price-img img {
+.price-img img {
   width: 100%;
   max-height: 180px;
   margin-top: 20px;
 }
-.price .price-block span {
+.price-block span {
   font-weight: 700;
 }
-.price .price-block ul {
+.price-block ul {
   font-size: 14px;
   list-style: none;
   padding: 20px 0;
   min-height: 152px;
 }
-.price .price-block li:before {
+.price-block li:before {
   content: "";
   display: inline-block;
   width: 16px;
@@ -258,7 +243,7 @@ body {
   background-size: 100%;
   margin-right: 10px;
 }
-.price .price-block .btn-price-block {
+.price-block .btn-price-block {
   padding: 10px 30px;
   border-radius: 5px;
   font-size: 12px;
@@ -285,10 +270,10 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.contacts #message {
+#message {
   width: 100%;
 }
-.contacts .myIFrame {
+.myIFrame {
   width: 600px;
   height: 300px;
   border: none;
@@ -304,12 +289,12 @@ h2 {
 .footer p {
   margin: 0;
 }
-.footer .row .footer-logo {
+.footer-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.footer .row .footer-logo .logoText {
+.logoText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,111 +310,27 @@ h2 {
   justify-content: center;
   margin-left: 10px;
 }
-.footer .row .footer-logo .logoText .text-uppercase {
+.text-uppercase {
   font-size: 20px;
   font-family: 'Proxima_bold', sans-serif;
 }
-.footer .row .footer-logo .logoText p {
+.logoText p {
   font-size: 15px;
   margin: 0;
 }
-@media screen and (max-width: 1240px) {
-  .scheme {
-    background-size: 55px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .main .phone-link {
-    font-size: 15px;
-  }
-  .feedback-form {
-    padding: 30px 10px;
-  }
-  .feedback .fotorama {
-    margin-bottom: 30px;
-  }
-}
-@media screen and (max-width: 991px) {
+
+@media (max-width: 992px) {
   .main {
     background-position: top right;
+    background-size: cover;
   }
-  .main .logoText {
-    margin-left: 15px;
+  .phone-link {
+    text-align: center;
   }
-  .main-title h1 {
-    font-size: 35px;
+  .main-title {
+    text-align: center;
   }
-  .main .phone-link {
-    font-size: 10px;
-  }
-  .feedback .hand {
-    display: none;
-  }
-  .scheme {
-    background-size: 480px;
-  }
-  .problems-woman {
-    display: none;
-  }
-  .problems-list {
-    min-height: 430px;
-  }
-  .contacts {
-    background-color: #fff;
-    background: none;
-  }
-  .contacts-form {
+  .main-content {
     margin-top: 30px;
-  }
-  .footer {
-    text-align: center;
-  }
-  .footer-logo {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .footer-contacts {
-    margin: 20px 0;
-  }
-  .footer-dev-logo {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 769px) {
-  .main {
-    background-position: top right;
-  }
-  .main-title h1 {
-    font-size: 25px;
-  }
-  .main .wrap-content button {
-    margin-top: 45px;
-  }
-  .main .phone-link {
-    font-size: 20px;
-  }
-  .price-button {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .price .section-header {
-    margin: 0;
-  }
-  .price-block {
-    margin-top: 20px;
-  }
-  .feedback-prev-btn {
-    left: 0;
-  }
-  .feedback-next-btn {
-    right: 0;
-  }
-  .scheme {
-    background: none;
-    text-align: center;
-  }
-  .scheme-block {
-    min-height: auto;
   }
 }
